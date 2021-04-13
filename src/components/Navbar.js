@@ -8,16 +8,16 @@ function Navbar() {
       <div className="Continer-Items">
         <ul className="UnOrderedList">
           <li>
-            <a href="#">Home</a>
+            <a href="">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="">About</a>
           </li>
           <li>
-            <a href="#">Portfolio</a>
+            <a href="">Portfolio</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="">Contact</a>
           </li>
         </ul>
       </div>
