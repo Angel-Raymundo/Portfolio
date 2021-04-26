@@ -6,10 +6,20 @@
   justify-content: space-between;
 }
 
-.Continer-Items {
+.Container-Logo {
   margin-left: 30px;
   margin-right: 30px;
   width: 600px;
+}
+
+.Container-Items {
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 600px;
+}
+
+.Hamburguer-button {
+  display: none;
 }
 
 .UnOrderedList {
@@ -21,4 +31,26 @@
 .UnOrderedList a {
   text-decoration: none;
   color: black;
+}
+
+.Show-Sections {
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .Container-Items {
+    display: none;
+  }
+
+  .Hamburguer-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 600px;
+  }
+
+  .Show-Sections {
+    display: flex;
+  }
 }

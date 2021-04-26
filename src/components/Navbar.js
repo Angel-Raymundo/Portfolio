@@ -1,11 +1,11 @@
 import React from "react";
 import "./Navbar.css";
 
-function Navbar() {
+function Navbar(props) {
   return (
     <div className="Container">
-      <div className="Continer-Items">LOGO</div>
-      <div className="Continer-Items">
+      <div className="Container-Logo">{props.logo}</div>
+      <div className="Container-Items">
         <ul className="UnOrderedList">
           <li>
             <a href="">Home</a>
@@ -20,6 +20,9 @@ function Navbar() {
             <a href="">Contact</a>
           </li>
         </ul>
+      </div>
+      <div className="Hamburguer-button">
+        <button>hola</button>
       </div>
     </div>
   );
