@@ -1,9 +1,14 @@
+import React from "react";
 import "./App.css";
 
-import Navbar from "./components/Navbar";
+import General from "./components/General";
 
 function App() {
-  return <Navbar />;
+  return (
+    <div>
+      <General />
+    </div>
+  );
 }
 
 export default App;
