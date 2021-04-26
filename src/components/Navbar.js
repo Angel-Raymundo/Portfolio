@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import HamburguerButton from "./HamburguerButton";
 
 function Navbar(props) {
   return (
@@ -22,7 +23,7 @@ function Navbar(props) {
         </ul>
       </div>
       <div className="Hamburguer-button">
-        <button>hola</button>
+        <HamburguerButton />
       </div>
     </div>
   );
