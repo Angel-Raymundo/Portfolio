@@ -1,17 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 
-import Navbar from "./components/Navbar";
-import HamburguerList from "./components/HamburguerList";
+import General from "./components/General";
 
 function App() {
-  const [toggle, setToggle] = useState(true);
-
   return (
     <div>
-      <Navbar logo="RodoStuff" />
-      <button onClick={() => setToggle(!toggle)}>ey</button>
-      <HamburguerList state={toggle} />
+      <General />
     </div>
   );
 }
