@@ -21,6 +21,15 @@
 
 @media screen and (min-width: 640px) {
   .Mobile-list {
-    display: none;
+    background-color: #f4f4f4;
+    border-width: 1px;
+    border-style: none;
+    border-left: none;
+    border-right: none;
+  }
+  .Mobile-list ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
   }
 }

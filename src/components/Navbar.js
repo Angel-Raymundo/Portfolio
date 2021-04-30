@@ -10,23 +10,13 @@ function Navbar(props) {
         <div className="Container">
           <div className="Container-Logo">{props.logo}</div>
           <div className="Container-Items">
-            <ul className="UnOrderedList">
-              <li>
-                <a href="">Home</a>
-              </li>
-              <li>
-                <a href="">About</a>
-              </li>
-              <li>
-                <a href="">Portfolio</a>
-              </li>
-              <li>
-                <a href="">Contact</a>
-              </li>
-            </ul>
+            <HamburguerList state={true} />
           </div>
           <div className="Hamburguer-button">
-            <button onClick={() => setToggle(!toggle)}>click me</button>
+            <input type="checkbox" onClick={() => setToggle(!toggle)} />
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
         </div>
       </div>
