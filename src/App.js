@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
 
-import General from "./components/General";
+import Navbar from "./components/Navbar";
+import Title from "./components/Title";
 
 function App() {
   return (
     <div>
-      <General />
+      <Navbar logo="RodoStuff" />
+      <Title title="About me" />
     </div>
   );
 }
